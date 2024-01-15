@@ -13,7 +13,7 @@ const Contact = () => {
             corporis totam animi!
           </p>
           <form
-            action="https://formspree.io/f/mayrndlj"
+            action="https://formspree.io/f/xdoqkljg"
             method="POST"
             className="contact-form"
           >
