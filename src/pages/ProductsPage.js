@@ -25,11 +25,11 @@ const ProductsPage = () => {
       <PageHero title="products" />
       <Wrapper className="page">
         <div className="section-center products">
-          <Filters />
           <div>
             <Sort />
             <ProductList />
           </div>
+          <Filters />
         </div>
       </Wrapper>
     </main>
@@ -38,7 +38,8 @@ const ProductsPage = () => {
 
 const Wrapper = styled.div`
   .products {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     gap: 3rem 1.5rem;
     margin: 4rem auto;
   }

@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { PageHero } from '../components';
-import aboutImg from '../assets/hero-bcg.jpeg';
+import React from "react";
+import styled from "styled-components";
+import { Contact, PageHero, Services } from "../components";
+import aboutImg from "../assets/heor-bcg.webp";
 
 const AboutPage = () => {
   return (
@@ -20,13 +20,16 @@ const AboutPage = () => {
             sint!
           </p>
         </article>
+        <Services />
+        <Contact />
       </Wrapper>
     </main>
   );
 };
 
 const Wrapper = styled.section`
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 4rem;
   img {
     width: 100%;
